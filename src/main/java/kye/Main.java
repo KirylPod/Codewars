@@ -81,6 +81,6 @@ public class Main {
 
 //        System.out.println(Max.sequence(new int[]{-2, -1, -3, -4, -1, -2, -1, -5, -4}));
 
-//        System.out.println(PigLatin.pigIt("O temporal o mores !"));
+        System.out.println(PigLatin.pigIt("O temporal o mores !"));
     }
 }
