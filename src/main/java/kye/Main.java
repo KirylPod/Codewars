@@ -1,13 +1,16 @@
 package main.java.kye;
 
 
-import main.java.kye.eight.CountOddNumbersBelow;
+import main.java.kye.eight.DuckDuckGoose;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(CountOddNumbersBelow.oddCount(123587024));
+
+        System.out.println(DuckDuckGoose.duckDuckGoose(new String[]{"a", "b", "c", "d", "c", "e", "f", "g", "h", "z"}, 3));
+
+  //      System.out.println(CountOddNumbersBelow.oddCount(123587024));
 
 
 //        FindOdd.findIt(new int[]{1,1,3,2,2,3,3,3,3});

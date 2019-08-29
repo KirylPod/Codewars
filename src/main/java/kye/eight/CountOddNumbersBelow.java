@@ -4,15 +4,7 @@ public class CountOddNumbersBelow {
 
     public static int oddCount(int n){
 
-        int count = 0;
-        int odd = 1;
-
-        while (odd < n){
-            odd = odd+2;
-            count++;
-        }
-
-        return count;
+        return n%2==0?n/2:(n-1)/2;
     }
 
 }
