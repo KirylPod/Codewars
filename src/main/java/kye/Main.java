@@ -1,11 +1,14 @@
 package main.java.kye;
 
 
-import main.java.kye.five.PigLatin;
+import main.java.kye.eight.CountOddNumbersBelow;
 
 public class Main {
 
     public static void main(String[] args) {
+
+        System.out.println(CountOddNumbersBelow.oddCount(123587024));
+
 
 //        FindOdd.findIt(new int[]{1,1,3,2,2,3,3,3,3});
         //       DuplicateEncoder.encode("rrEced");
@@ -81,6 +84,6 @@ public class Main {
 
 //        System.out.println(Max.sequence(new int[]{-2, -1, -3, -4, -1, -2, -1, -5, -4}));
 
-        System.out.println(PigLatin.pigIt("O temporal o mores !"));
+  //      System.out.println(PigLatin.pigIt("O temporal o mores !"));
     }
 }
