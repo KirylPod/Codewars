@@ -2,6 +2,7 @@ package main.java.kye;
 
 
 import main.java.kye.eight.CenturyFromYear;
+import main.java.kye.eight.SentenceSmash;
 import main.java.kye.seven.DisemvowelTrolls;
 
 public class Main {
@@ -10,7 +11,9 @@ public class Main {
 
  //       CenturyFromYear.century(1705);
 
-        System.out.println(DisemvowelTrolls.disemvowel("What are you, a communist?"));
+        System.out.println(SentenceSmash.smash(new String[] { "Bilal", "Djaghout" }));
+
+//        System.out.println(DisemvowelTrolls.disemvowel("What are you, a communist?"));
 
 //        int[] input = new int[]{-1, -2, -3, -4, -5};
 //        Arrays.toString(InvertValues.invert(input));
