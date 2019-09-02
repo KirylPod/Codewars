@@ -1,16 +1,21 @@
 package main.java.kye;
 
 
-import main.java.kye.eight.DuckDuckGoose;
+import main.java.kye.eight.InvertValues;
+
+import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
 
+        int[] input = new int[]{-1, -2, -3, -4, -5};
+        Arrays.toString(InvertValues.invert(input));
 
-        System.out.println(DuckDuckGoose.duckDuckGoose(new String[]{"a", "b", "c", "d", "c", "e", "f", "g", "h", "z"}, 3));
 
-  //      System.out.println(CountOddNumbersBelow.oddCount(123587024));
+//        System.out.println(DuckDuckGoose.duckDuckGoose(new String[]{"a", "b", "c", "d", "c", "e", "f", "g", "h", "z"}, 3));
+
+        //      System.out.println(CountOddNumbersBelow.oddCount(123587024));
 
 
 //        FindOdd.findIt(new int[]{1,1,3,2,2,3,3,3,3});
@@ -87,6 +92,6 @@ public class Main {
 
 //        System.out.println(Max.sequence(new int[]{-2, -1, -3, -4, -1, -2, -1, -5, -4}));
 
-  //      System.out.println(PigLatin.pigIt("O temporal o mores !"));
+        //      System.out.println(PigLatin.pigIt("O temporal o mores !"));
     }
 }
