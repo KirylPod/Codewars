@@ -1,16 +1,17 @@
 package main.java.kye;
 
 
-import main.java.kye.eight.InvertValues;
-
-import java.util.Arrays;
+import main.java.kye.eight.CenturyFromYear;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        int[] input = new int[]{-1, -2, -3, -4, -5};
-        Arrays.toString(InvertValues.invert(input));
+        CenturyFromYear.century(1705);
+
+
+//        int[] input = new int[]{-1, -2, -3, -4, -5};
+//        Arrays.toString(InvertValues.invert(input));
 
 
 //        System.out.println(DuckDuckGoose.duckDuckGoose(new String[]{"a", "b", "c", "d", "c", "e", "f", "g", "h", "z"}, 3));
