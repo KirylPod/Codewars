@@ -1,11 +1,14 @@
 package main.java.kye.four;
 
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 public class HumanReadableDurationFormat {
 
     public static String formatDuration(int seconds) {
 
+        String time = "";
+        ArrayList<String> temp = new ArrayList<>();
         long year = TimeUnit.SECONDS.toDays(seconds) / 365;
         long day = TimeUnit.SECONDS.toDays(seconds) - (year * 365);
         long hour = TimeUnit.SECONDS.toHours(seconds) - (TimeUnit.SECONDS.toDays(seconds) * 24);
@@ -14,37 +17,57 @@ public class HumanReadableDurationFormat {
 
         StringBuilder sb = new StringBuilder();
 
-        sb = year > 1 ? sb.append(year + " years, ") : sb.append(year + " year, ");
-        sb = day > 1 ? sb.append(day + " days, ") : sb.append(day + " day, ");
-        sb = hour > 1 ? sb.append(hour + " hours, ") : sb.append(hour + " hour, ");
-        sb = minute > 1 ? sb.append(minute + " minutes, ") : sb.append(minute + " minute, ");
-        sb = second > 1 ? sb.append(second + " seconds, ") : sb.append(second + " second, ");
+        if (seconds == 0) {
+            return "now";
+        }
+        if (year > 0) {
+            temp.add(year > 1 ? String.valueOf(year) + " years" : String.valueOf(year) + " year");
+        }
+        if (day > 0) {
+
+            temp.add(day > 1 ? String.valueOf(day) + " days" : String.valueOf(day) + " day");
+
+        }
+        if (hour > 0) {
+
+            temp.add(hour > 1 ? String.valueOf(hour) + " hours" : String.valueOf(hour) + " hour");
+
+        }
+        if (minute > 0) {
+
+            temp.add(minute > 1 ? String.valueOf(minute) + " minutes" : String.valueOf(minute) + " minute");
+
+        }
+        if (second > 0) {
+
+            temp.add(second > 1 ? String.valueOf(second) + " seconds" : String.valueOf(second) + " second");
+        }
 
 
+        for (int i = 0; i < temp.size(); i++) {
 
-//        if (seconds >= 30879000 && year > 1) {
-//            sb.append(year + " years ");
-//            //            System.out.println(year + " years " + day + " days " + hours + " hours " + minute + " minutes " + second + " seconds");
-//        } else if (seconds >= 30879000 && year == 1) {
-//            sb.append(year + " year ");
-//            System.out.println(year + " years " + day + " days " + hour + " hours " + minute + " minutes " + second + " seconds");
-//        } else if (seconds >= 84600 && seconds < 30879000) {
-//            System.out.println(seconds + " seconds equals to " + hour + " hours " + minute + " minutes " + second + " seconds");
-//        } else if (seconds >= 3600 && seconds < 84600) {
-//            System.out.println(seconds + " seconds equals to " + hour + " hours " + minute + " minutes " + second + " seconds");
-//        } else if (seconds >= 60 && seconds < 3600 && second == 1) {
-//            System.out.println(seconds + " seconds equals to " + minute + " minutes " + second + " second");
-//        } else if (seconds >= 60 && seconds < 3600 && second > 1) {
-//            System.out.println(seconds + " seconds equals to " + minute + " minutes " + second + " seconds");
-//        } else if (seconds < 60) {
-//            System.out.println(seconds + " seconds equals to seconds");
-//        }
+            if (temp.size() == 1) {
+                sb.append(temp.get(i));
+                time = sb.toString();
+                break;
+            } else if (temp.size() == 2) {
+                sb.append(temp.get(i) + " and " + temp.get(i + 1));
+                time = sb.toString();
+                break;
+            } else if (temp.size() > 2) {
+                sb.append(temp.get(i));
+                if(i < temp.size() - 2){
+                    sb.append(", ");
+                }else{
+                    sb.append(" and ");
 
+                }
+                time = sb.toString();
+                time = time.substring(0, time.length() - 4).trim();
+            }
+        }
 
-System.out.println(sb);
+        return time;
 
-        return "";
     }
-
-
 }

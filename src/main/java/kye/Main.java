@@ -17,13 +17,12 @@ public class Main {
 
  //       StringyStrings.stringy(3).charAt(0);   Доделать
 
-        HumanReadableDurationFormat.formatDuration(3080205);
+          System.out.println(HumanReadableDurationFormat.formatDuration(1));
 
 //        System.out.println(DisemvowelTrolls.disemvowel("What are you, a communist?"));
 
 //        int[] input = new int[]{-1, -2, -3, -4, -5};
 //        Arrays.toString(InvertValues.invert(input));
-
 
 //        System.out.println(DuckDuckGoose.duckDuckGoose(new String[]{"a", "b", "c", "d", "c", "e", "f", "g", "h", "z"}, 3));
 
