@@ -15,13 +15,13 @@ public class Main {
 
  //       CenturyFromYear.century(1705);
 
-        System.out.println(NoZerosForHeros.noBoringZeros(0));
+ //       System.out.println(NoZerosForHeros.noBoringZeros(0));
 
  //       TheSupermarketQueue.solveSuperMarketQueue(new int[] { 2, 2, 3, 3, 4, 4 }, 2);
 
  //       System.out.println(SentenceSmash.smash(new String[] { "Bilal", "Djaghout" }));
 
- //       StringyStrings.stringy(3).charAt(0);   Доделать
+       StringyStrings.stringy(3);
 
 //          System.out.println(HumanReadableDurationFormat.formatDuration(1));
 
