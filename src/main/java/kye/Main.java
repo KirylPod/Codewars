@@ -2,10 +2,12 @@ package main.java.kye;
 
 
 import main.java.kye.eight.CenturyFromYear;
+import main.java.kye.eight.NoZerosForHeros;
 import main.java.kye.eight.SentenceSmash;
 import main.java.kye.eight.StringyStrings;
 import main.java.kye.four.HumanReadableDurationFormat;
 import main.java.kye.seven.DisemvowelTrolls;
+import main.java.kye.six.TheSupermarketQueue;
 
 public class Main {
 
@@ -13,11 +15,15 @@ public class Main {
 
  //       CenturyFromYear.century(1705);
 
+        System.out.println(NoZerosForHeros.noBoringZeros(0));
+
+ //       TheSupermarketQueue.solveSuperMarketQueue(new int[] { 2, 2, 3, 3, 4, 4 }, 2);
+
  //       System.out.println(SentenceSmash.smash(new String[] { "Bilal", "Djaghout" }));
 
  //       StringyStrings.stringy(3).charAt(0);   Доделать
 
-          System.out.println(HumanReadableDurationFormat.formatDuration(1));
+//          System.out.println(HumanReadableDurationFormat.formatDuration(1));
 
 //        System.out.println(DisemvowelTrolls.disemvowel("What are you, a communist?"));
 
