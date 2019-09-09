@@ -1,10 +1,7 @@
 package main.java.kye;
 
 
-import main.java.kye.eight.CenturyFromYear;
-import main.java.kye.eight.NoZerosForHeros;
-import main.java.kye.eight.SentenceSmash;
-import main.java.kye.eight.StringyStrings;
+import main.java.kye.eight.*;
 import main.java.kye.four.HumanReadableDurationFormat;
 import main.java.kye.seven.DisemvowelTrolls;
 import main.java.kye.six.TheSupermarketQueue;
@@ -21,7 +18,10 @@ public class Main {
 
  //       System.out.println(SentenceSmash.smash(new String[] { "Bilal", "Djaghout" }));
 
-       StringyStrings.stringy(3);
+//       StringyStrings.stringy(3);
+
+
+        DNAtoRNAConversion.dnaToRna("TTTT");
 
 //          System.out.println(HumanReadableDurationFormat.formatDuration(1));
 
