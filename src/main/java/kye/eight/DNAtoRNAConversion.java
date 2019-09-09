@@ -4,6 +4,6 @@ public class DNAtoRNAConversion {
 
     public static String dnaToRna(String dna) {
 
-        return dna.replaceAll("T", "U");  
+        return dna.replaceAll("T", "U");
     }
 }

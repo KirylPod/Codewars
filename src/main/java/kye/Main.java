@@ -1,27 +1,27 @@
 package main.java.kye;
 
 
-import main.java.kye.eight.*;
-import main.java.kye.four.HumanReadableDurationFormat;
-import main.java.kye.seven.DisemvowelTrolls;
-import main.java.kye.six.TheSupermarketQueue;
+import main.java.kye.eight.FindMaximumAndMinimumValues;
 
 public class Main {
 
     public static void main(String[] args) {
 
- //       CenturyFromYear.century(1705);
+        //       CenturyFromYear.century(1705);
 
- //       System.out.println(NoZerosForHeros.noBoringZeros(0));
+        //       System.out.println(NoZerosForHeros.noBoringZeros(0));
 
- //       TheSupermarketQueue.solveSuperMarketQueue(new int[] { 2, 2, 3, 3, 4, 4 }, 2);
+        //       TheSupermarketQueue.solveSuperMarketQueue(new int[] { 2, 2, 3, 3, 4, 4 }, 2);
 
- //       System.out.println(SentenceSmash.smash(new String[] { "Bilal", "Djaghout" }));
+        //       System.out.println(SentenceSmash.smash(new String[] { "Bilal", "Djaghout" }));
 
 //       StringyStrings.stringy(3);
 
 
-        DNAtoRNAConversion.dnaToRna("TTTT");
+//        DNAtoRNAConversion.dnaToRna("TTTT");
+
+        FindMaximumAndMinimumValues.min(new int[]{-52, 56, 30, 29, -54, 0, -110});
+        FindMaximumAndMinimumValues.max(new int[]{4, 6, 2, 1, 9, 63, -134, 566});
 
 //          System.out.println(HumanReadableDurationFormat.formatDuration(1));
 
