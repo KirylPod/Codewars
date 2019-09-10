@@ -1,6 +1,7 @@
 package main.java.kye;
 
 
+import main.java.kye.eight.AlternativeString;
 import main.java.kye.eight.FindMaximumAndMinimumValues;
 
 public class Main {
@@ -17,11 +18,13 @@ public class Main {
 
 //       StringyStrings.stringy(3);
 
+        AlternativeString.toAlternativeString("altERnaTIng cAsE");
+
 
 //        DNAtoRNAConversion.dnaToRna("TTTT");
-
-        FindMaximumAndMinimumValues.min(new int[]{-52, 56, 30, 29, -54, 0, -110});
-        FindMaximumAndMinimumValues.max(new int[]{4, 6, 2, 1, 9, 63, -134, 566});
+//
+//        FindMaximumAndMinimumValues.min(new int[]{-52, 56, 30, 29, -54, 0, -110});
+//        FindMaximumAndMinimumValues.max(new int[]{4, 6, 2, 1, 9, 63, -134, 566});
 
 //          System.out.println(HumanReadableDurationFormat.formatDuration(1));
 
