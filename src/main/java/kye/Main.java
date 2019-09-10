@@ -1,8 +1,9 @@
 package main.java.kye;
 
 
-import main.java.kye.eight.AlternativeString;
-import main.java.kye.eight.FindMaximumAndMinimumValues;
+import main.java.kye.eight.DuckDuckGoose;
+import main.java.kye.six.TortoiseRacing;
+
 
 public class Main {
 
@@ -18,7 +19,7 @@ public class Main {
 
 //       StringyStrings.stringy(3);
 
-        AlternativeString.toAlternativeString("altERnaTIng cAsE");
+//        AlternativeString.toAlternativeString("altERnaTIng cAsE");
 
 
 //        DNAtoRNAConversion.dnaToRna("TTTT");
@@ -33,7 +34,9 @@ public class Main {
 //        int[] input = new int[]{-1, -2, -3, -4, -5};
 //        Arrays.toString(InvertValues.invert(input));
 
-//        System.out.println(DuckDuckGoose.duckDuckGoose(new String[]{"a", "b", "c", "d", "c", "e", "f", "g", "h", "z"}, 3));
+        TortoiseRacing.race(720, 850, 70);
+
+            //    System.out.println(DuckDuckGoose.duckDuckGoose(new Player[]{"a", "b", "c", "d"}, 1));
 
         //      System.out.println(CountOddNumbersBelow.oddCount(123587024));
 
