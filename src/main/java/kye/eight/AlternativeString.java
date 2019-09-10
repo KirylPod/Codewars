@@ -12,7 +12,6 @@ public class AlternativeString {
                     Character.toLowerCase(string.charAt(i)) :
                     Character.toUpperCase(string.charAt(i))));
         }
-
         return sb.toString();
     }
 
