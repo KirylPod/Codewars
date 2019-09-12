@@ -15,7 +15,7 @@ public class Main {
 
         //       System.out.println(NoZerosForHeros.noBoringZeros(0));
 
-               TheSupermarketQueue.solveSuperMarketQueue(new int[] { 2, 3, 4, 5 }, 2);
+        System.out.println(TheSupermarketQueue.solveSuperMarketQueue(new int[] { 2, 3, 4, 5 }, 2));
 
         //       System.out.println(SentenceSmash.smash(new String[] { "Bilal", "Djaghout" }));
 
