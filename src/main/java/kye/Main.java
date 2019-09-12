@@ -2,6 +2,8 @@ package main.java.kye;
 
 
 import main.java.kye.eight.DuckDuckGoose;
+import main.java.kye.five.FactorialDecomposition;
+import main.java.kye.six.TheSupermarketQueue;
 import main.java.kye.six.TortoiseRacing;
 
 
@@ -13,7 +15,7 @@ public class Main {
 
         //       System.out.println(NoZerosForHeros.noBoringZeros(0));
 
-        //       TheSupermarketQueue.solveSuperMarketQueue(new int[] { 2, 2, 3, 3, 4, 4 }, 2);
+               TheSupermarketQueue.solveSuperMarketQueue(new int[] { 2, 3, 4, 5 }, 2);
 
         //       System.out.println(SentenceSmash.smash(new String[] { "Bilal", "Djaghout" }));
 
@@ -34,7 +36,9 @@ public class Main {
 //        int[] input = new int[]{-1, -2, -3, -4, -5};
 //        Arrays.toString(InvertValues.invert(input));
 
-        TortoiseRacing.race(720, 850, 70);
+//        TortoiseRacing.race(720, 850, 70);
+
+     //   FactorialDecomposition.decomp(12);
 
             //    System.out.println(DuckDuckGoose.duckDuckGoose(new Player[]{"a", "b", "c", "d"}, 1));
 
