@@ -1,6 +1,7 @@
 package main.java.kye;
 
 
+import main.java.kye.eight.AreYouPlayingBanjo;
 import main.java.kye.eight.TransportationOnVacation;
 
 
@@ -16,7 +17,9 @@ public class Main {
 
 //        System.out.println(FakeBinary.fakeBin("123456789"));
 
-        System.out.println(TransportationOnVacation.rentalCarCost(4));
+//        System.out.println(TransportationOnVacation.rentalCarCost(4));
+
+        System.out.println(AreYouPlayingBanjo.areYouPlayingBanjo("rar"));
 
         //       System.out.println(SentenceSmash.smash(new String[] { "Bilal", "Djaghout" }));
 
