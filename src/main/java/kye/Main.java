@@ -2,6 +2,7 @@ package main.java.kye;
 
 
 import main.java.kye.eight.DuckDuckGoose;
+import main.java.kye.eight.FakeBinary;
 import main.java.kye.five.FactorialDecomposition;
 import main.java.kye.six.TheSupermarketQueue;
 import main.java.kye.six.TortoiseRacing;
@@ -15,7 +16,9 @@ public class Main {
 
         //       System.out.println(NoZerosForHeros.noBoringZeros(0));
 
-        System.out.println(TheSupermarketQueue.solveSuperMarketQueue(new int[] { 2, 3, 4, 5 }, 2));
+//        System.out.println(TheSupermarketQueue.solveSuperMarketQueue(new int[] { 2, 3, 4, 5 }, 2));
+
+        System.out.println(FakeBinary.fakeBin("123456789"));
 
         //       System.out.println(SentenceSmash.smash(new String[] { "Bilal", "Djaghout" }));
 
