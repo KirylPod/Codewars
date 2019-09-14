@@ -1,11 +1,7 @@
 package main.java.kye;
 
 
-import main.java.kye.eight.DuckDuckGoose;
-import main.java.kye.eight.FakeBinary;
-import main.java.kye.five.FactorialDecomposition;
-import main.java.kye.six.TheSupermarketQueue;
-import main.java.kye.six.TortoiseRacing;
+import main.java.kye.eight.TransportationOnVacation;
 
 
 public class Main {
@@ -18,7 +14,9 @@ public class Main {
 
 //        System.out.println(TheSupermarketQueue.solveSuperMarketQueue(new int[] { 2, 3, 4, 5 }, 2));
 
-        System.out.println(FakeBinary.fakeBin("123456789"));
+//        System.out.println(FakeBinary.fakeBin("123456789"));
+
+        System.out.println(TransportationOnVacation.rentalCarCost(4));
 
         //       System.out.println(SentenceSmash.smash(new String[] { "Bilal", "Djaghout" }));
 
@@ -41,9 +39,9 @@ public class Main {
 
 //        TortoiseRacing.race(720, 850, 70);
 
-     //   FactorialDecomposition.decomp(12);
+        //   FactorialDecomposition.decomp(12);
 
-            //    System.out.println(DuckDuckGoose.duckDuckGoose(new Player[]{"a", "b", "c", "d"}, 1));
+        //    System.out.println(DuckDuckGoose.duckDuckGoose(new Player[]{"a", "b", "c", "d"}, 1));
 
         //      System.out.println(CountOddNumbersBelow.oddCount(123587024));
 
